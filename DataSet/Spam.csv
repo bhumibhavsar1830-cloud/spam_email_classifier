@@ -1,1 +1,41 @@
-
+label,message
+ham,Hey are we meeting tomorrow for the project discussion
+ham,Please send me the notes from today's class
+ham,Can you call me when you reach home
+ham,Let's have lunch together tomorrow
+ham,Did you finish the assignment
+ham,Good morning hope you have a great day
+ham,I'll be there in 10 minutes
+ham,Thanks for helping me yesterday
+ham,Let's prepare for the hackathon tonight
+ham,Don't forget to bring your laptop
+spam,Congratulations you have won a free iPhone click the link now
+spam,You are selected for a 5000 cash reward claim now
+spam,Win a free vacation to Dubai reply YES now
+spam,Exclusive offer buy one get one free limited time
+spam,URGENT your bank account needs verification click here
+spam,You have been chosen to receive a gift card worth 1000
+spam,Act now to claim your free prize
+spam,Limited time offer get 70 percent discount
+spam,Your mobile number has won a lottery claim now
+spam,Free entry in our contest win amazing prizes
+ham,Are you coming to the meeting today
+ham,Please review the document I shared
+ham,Can we reschedule the call to evening
+ham,Thank you for your quick response
+ham,Let me know if you need any help
+spam,You won a free movie ticket click to claim
+spam,Cheap loans available apply instantly
+spam,Get rich quickly with this simple trick
+spam,Your account is selected for a reward
+spam,Download this app and earn money daily
+ham,I will send the files tonight
+ham,Let's work on the ML project together
+ham,The hackathon starts tomorrow morning
+ham,Please update the GitHub repository
+ham,Great work on the presentation
+spam,Win cash prizes by registering now
+spam,Special deal just for you click here
+spam,You are eligible for a free credit card
+spam,Claim your reward before it expires
+spam,Get free access to premium content
