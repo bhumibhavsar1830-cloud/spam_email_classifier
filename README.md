@@ -10,6 +10,8 @@
 
 **An AI-powered Spam Email Detector using NLP and Naive Bayes — classifies emails as Spam or Legitimate in real-time via an interactive Streamlit web app.**
 
+🔗 **[Live App → Click Here](https://spamemailclassifier-fvrrdtvnpwsdlukffsqojn.streamlit.app/)**
+
 </div>
 
 ---
@@ -43,6 +45,12 @@ The system converts email text into numerical features using **TF-IDF Vectorizat
 
 ---
 
+## 🖥️ Live Demo
+
+🔗 **[Open Live App →](https://spamemailclassifier-fvrrdtvnpwsdlukffsqojn.streamlit.app/)**
+
+---
+
 ## 🛠️ Tech Stack
 
 | Layer | Technology |
@@ -61,10 +69,11 @@ The system converts email text into numerical features using **TF-IDF Vectorizat
 ```
 spam_email_classifier/
 │
-├── app.py               ← Streamlit web app (main)
+├── spam_app.py          ← Streamlit web app (main)
 ├── train_model.py       ← Model training script
 │
 ├── DataSet/             ← Email dataset folder
+│   └── Spam.csv
 │
 ├── requirements.txt     ← Python dependencies
 ├── LICENSE
@@ -86,17 +95,12 @@ cd spam_email_classifier
 pip install -r requirements.txt
 ```
 
-**3. Train the model**
+**3. Run the app**
 ```bash
-python train_model.py
+streamlit run spam_app.py
 ```
 
-**4. Run the app**
-```bash
-streamlit run app.py
-```
-
-**5. Open in browser**
+**4. Open in browser**
 ```
 http://localhost:8501
 ```
@@ -108,13 +112,13 @@ http://localhost:8501
 ```
 Email Text Input
       ↓
-Text Preprocessing (lowercase, remove punctuation)
+Text Preprocessing
       ↓
-TF-IDF Vectorization (converts text → numbers)
+TF-IDF Vectorization (text → numbers)
       ↓
 Multinomial Naive Bayes Model
       ↓
-Output: SPAM ❌  or  NOT SPAM ✅
+Output: SPAM 🚨  or  NOT SPAM ✅
 ```
 
 ---
@@ -125,7 +129,7 @@ Output: SPAM ❌  or  NOT SPAM ✅
 - **Feature Extraction** — TF-IDF Vectorizer
 - **Input** — Raw email/message text
 - **Output** — Spam or Legitimate (Ham)
-- **Training Data** — Real-world email dataset
+- **Training Data** — Real-world email dataset (Spam.csv)
 
 ---
 
