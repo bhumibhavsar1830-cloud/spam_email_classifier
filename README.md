@@ -11,7 +11,7 @@
 **An AI-powered Spam Email Detector using NLP and Naive Bayes — classifies emails as Spam or Legitimate in real-time via an interactive Streamlit web app.**
 
 🔗 **[Live App → Click Here](https://spamemailclassifier-fvrrdtvnpwsdlukffsqojn.streamlit.app/)**
-
+![App Demo](./model.png)
 </div>
 
 ---
